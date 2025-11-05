@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\h00ver4ever\\documents\\unreal projects\\vgp221_graphicsprog2\\source\\vgp221_graphicsprog2\\private\\gamemod\\maingamemodebase.cpp",
+        "Source": "c:\\users\\h00ver4ever\\documents\\github respoitory\\graphicsprog2\\vgp221_graphicsprog2\\source\\vgp221_graphicsprog2\\private\\gamemod\\maingamemodebase.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\h00ver4ever\\documents\\unreal projects\\vgp221_graphicsprog2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\vgp221_graphicsprog2\\definitions.vgp221_graphicsprog2.h",
-            "c:\\users\\h00ver4ever\\documents\\unreal projects\\vgp221_graphicsprog2\\intermediate\\build\\win64\\x64\\vgp221_graphicsprog2editor\\development\\unrealed\\shareddefinitions.unrealed.project.valapi.valexpapi.cpp20.h",
-            "c:\\users\\h00ver4ever\\documents\\unreal projects\\vgp221_graphicsprog2\\source\\vgp221_graphicsprog2\\public\\gamemod\\maingamemodebase.h",
+            "c:\\users\\h00ver4ever\\documents\\github respoitory\\graphicsprog2\\vgp221_graphicsprog2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\vgp221_graphicsprog2\\definitions.vgp221_graphicsprog2.h",
+            "c:\\users\\h00ver4ever\\documents\\github respoitory\\graphicsprog2\\vgp221_graphicsprog2\\intermediate\\build\\win64\\x64\\vgp221_graphicsprog2editor\\development\\unrealed\\shareddefinitions.unrealed.project.valapi.valexpapi.cpp20.h",
+            "c:\\users\\h00ver4ever\\documents\\github respoitory\\graphicsprog2\\vgp221_graphicsprog2\\source\\vgp221_graphicsprog2\\public\\gamemod\\maingamemodebase.h",
             "d:\\ue_5.6\\engine\\source\\runtime\\core\\public\\coreminimal.h",
             "d:\\ue_5.6\\engine\\source\\runtime\\core\\public\\coretypes.h",
             "d:\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
@@ -771,7 +771,7 @@
             "d:\\ue_5.6\\engine\\source\\runtime\\engine\\public\\inputkeyeventargs.h",
             "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playercontroller.generated.h",
             "d:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
-            "c:\\users\\h00ver4ever\\documents\\unreal projects\\vgp221_graphicsprog2\\intermediate\\build\\win64\\unrealeditor\\inc\\vgp221_graphicsprog2\\uht\\maingamemodebase.generated.h"
+            "c:\\users\\h00ver4ever\\documents\\github respoitory\\graphicsprog2\\vgp221_graphicsprog2\\intermediate\\build\\win64\\unrealeditor\\inc\\vgp221_graphicsprog2\\uht\\maingamemodebase.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
