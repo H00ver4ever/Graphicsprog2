@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VGP221_GraphicsProg2.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/VGP221_GraphicsProg2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/UnrealEditor/Development/VGP221_GraphicsProg2/Module.VGP221_GraphicsProg2.gen.cpp.obj"
+"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/UnrealEditor/Development/VGP221_GraphicsProg2/VGP221_GraphicsProg2.cpp.obj"
+"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/UnrealEditor/Development/VGP221_GraphicsProg2/FPSprojectgamemode.cpp.obj"
+"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/UnrealEditor/Development/VGP221_GraphicsProg2/PerModuleInline.gen.cpp.obj"
+"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/UnrealEditor/Development/VGP221_GraphicsProg2/Default.rc2.res"
+/OUT:"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/UnrealEditor/Development/VGP221_GraphicsProg2/UnrealEditor-VGP221_GraphicsProg2.lib"

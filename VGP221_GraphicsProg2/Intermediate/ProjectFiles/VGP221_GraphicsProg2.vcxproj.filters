@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\VGP221_GraphicsProg2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VGP221_GraphicsProg2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\VGP221_GraphicsProg2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\VGP221_GraphicsProg2">
+      <UniqueIdentifier>{FAA3E609-D2ED-34D0-9430-881EF90006DC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VGP221_GraphicsProg2\VGP221_GraphicsProg2.Build.cs">
+      <Filter>Source\VGP221_GraphicsProg2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\VGP221_GraphicsProg2\VGP221_GraphicsProg2.cpp">
+      <Filter>Source\VGP221_GraphicsProg2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VGP221_GraphicsProg2\VGP221_GraphicsProg2.h">
+      <Filter>Source\VGP221_GraphicsProg2</Filter>
+    </ClInclude>
+    <Filter Include="Source\VGP221_GraphicsProg2\Private">
+      <UniqueIdentifier>{A943356D-DFFE-32C2-9D1A-B7866C0DE5F1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\VGP221_GraphicsProg2\Private\FPSprojectgamemode.cpp">
+      <Filter>Source\VGP221_GraphicsProg2\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\VGP221_GraphicsProg2\Private\Gamemod">
+      <UniqueIdentifier>{F255C278-9658-3A66-A92A-21EB68FF7C3D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\VGP221_GraphicsProg2\Private\Gamemod\MainGamemodeBase.cpp">
+      <Filter>Source\VGP221_GraphicsProg2\Private\Gamemod</Filter>
+    </ClCompile>
+    <Filter Include="Source\VGP221_GraphicsProg2\Public">
+      <UniqueIdentifier>{CAD80E69-6578-320C-B284-2E26F6AF1E10}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\VGP221_GraphicsProg2\Public\FPSprojectgamemode.h">
+      <Filter>Source\VGP221_GraphicsProg2\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\VGP221_GraphicsProg2\Public\Gamemod">
+      <UniqueIdentifier>{340E276E-CC03-3630-9337-06BEFBB19E3E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\VGP221_GraphicsProg2\Public\Gamemod\MainGamemodeBase.h">
+      <Filter>Source\VGP221_GraphicsProg2\Public\Gamemod</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
