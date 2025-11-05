@@ -1,12 +1,12 @@
-"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Source/VGP221_GraphicsProg2/Private/Gamemod/MainGamemodeBase.cpp"
-@"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/UnrealEditor/Development/VGP221_GraphicsProg2/VGP221_GraphicsProg2.Shared.rsp"
-/FI"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/VGP221_GraphicsProg2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/FI"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/UnrealEditor/Development/VGP221_GraphicsProg2/Definitions.VGP221_GraphicsProg2.h"
-/Yu"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/VGP221_GraphicsProg2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/Fp"C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/VGP221_GraphicsProg2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
-/Fo"C:\Users\H00ver4ever\Documents\Unreal Projects\VGP221_GraphicsProg2\Intermediate\Build\Win64\x64\UnrealEditor\Development\VGP221_GraphicsProg2\MainGamemodeBase.cpp.lc.obj"
-/experimental:log "C:/Users/H00ver4ever/Documents/Unreal Projects/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/UnrealEditor/Development/VGP221_GraphicsProg2/MainGamemodeBase.cpp.sarif"
-/sourceDependencies"C:\Users\H00ver4ever\Documents\Unreal Projects\VGP221_GraphicsProg2\Intermediate\Build\Win64\x64\UnrealEditor\Development\VGP221_GraphicsProg2\MainGamemodeBase.cpp.lc.dep.json"
+"C:/Users/H00ver4ever/Documents/Github Respoitory/Graphicsprog2/VGP221_GraphicsProg2/Source/VGP221_GraphicsProg2/Private/Gamemod/MainGamemodeBase.cpp"
+@"C:/Users/H00ver4ever/Documents/Github Respoitory/Graphicsprog2/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/UnrealEditor/Development/VGP221_GraphicsProg2/VGP221_GraphicsProg2.Shared.rsp"
+/FI"C:/Users/H00ver4ever/Documents/Github Respoitory/Graphicsprog2/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/VGP221_GraphicsProg2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"C:/Users/H00ver4ever/Documents/Github Respoitory/Graphicsprog2/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/UnrealEditor/Development/VGP221_GraphicsProg2/Definitions.VGP221_GraphicsProg2.h"
+/Yu"C:/Users/H00ver4ever/Documents/Github Respoitory/Graphicsprog2/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/VGP221_GraphicsProg2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"C:/Users/H00ver4ever/Documents/Github Respoitory/Graphicsprog2/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/VGP221_GraphicsProg2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"C:\Users\H00ver4ever\Documents\Github Respoitory\Graphicsprog2\VGP221_GraphicsProg2\Intermediate\Build\Win64\x64\UnrealEditor\Development\VGP221_GraphicsProg2\MainGamemodeBase.cpp.lc.obj"
+/experimental:log "C:/Users/H00ver4ever/Documents/Github Respoitory/Graphicsprog2/VGP221_GraphicsProg2/Intermediate/Build/Win64/x64/UnrealEditor/Development/VGP221_GraphicsProg2/MainGamemodeBase.cpp.sarif"
+/sourceDependencies"C:\Users\H00ver4ever\Documents\Github Respoitory\Graphicsprog2\VGP221_GraphicsProg2\Intermediate\Build\Win64\x64\UnrealEditor\Development\VGP221_GraphicsProg2\MainGamemodeBase.cpp.lc.dep.json"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo

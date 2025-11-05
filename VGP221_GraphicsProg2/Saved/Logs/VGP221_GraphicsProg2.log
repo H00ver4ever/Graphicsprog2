@@ -1279,3 +1279,15 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.05-22.25.57:454][749]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
 [2025.11.05-22.27.41:768][828]LogDerivedDataCache: C:/Users/H00ver4ever/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
 [2025.11.05-22.27.48:547][965]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.11.05-22.28.34:897][599]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug66975963-e187-4a10-98bf-f766f105f32f ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64\link.exe @C:\Users\H00VER~1\AppData\Local\Temp\C19C.tmp
+   Creating library C:\Users\H00ver4ever\Documents\Unreal Projects\VGP221_GraphicsProg2\Binaries\Win64\UnrealEditor-VGP221_GraphicsProg2.patch_0.lib and object C:\Users\H00ver4ever\Documents\Unreal Projects\VGP221_GraphicsProg2\Binaries\Win64\UnrealEditor-VGP221_GraphicsProg2.patch_0.exp
+UbaSessionServer - ERROR opening file C:\Users\H00ver4ever\Documents\Unreal Projects\VGP221_GraphicsProg2\Binaries\Win64\UnrealEditor-VGP221_GraphicsProg2.patch_0.exp for write (The system cannot find the path specified.)
+UbaSessionServer - ERROR opening file C:\Users\H00ver4ever\Documents\Unreal Projects\VGP221_GraphicsProg2\Binaries\Win64\UnrealEditor-VGP221_GraphicsProg2.patch_0.exe for write (The system cannot find the path specified.)
+UbaSessionServer - ERROR opening file C:\Users\H00ver4ever\Documents\Unreal Projects\VGP221_GraphicsProg2\Binaries\Win64\UnrealEditor-VGP221_GraphicsProg2.patch_0.pdb for write (The system cannot find the path specified.)
+UbaSessionServer - ERROR opening file C:\Users\H00ver4ever\Documents\Unreal Projects\VGP221_GraphicsProg2\Binaries\Win64\UnrealEditor-VGP221_GraphicsProg2.patch_0.lib for write (The system cannot find the path specified.)
+Error exit code: 9001
+[2025.11.05-22.28.35:107][599]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.11.05-22.28.35:107][599]LogLiveCoding: Error: Live coding failed, please see Live console for more information
