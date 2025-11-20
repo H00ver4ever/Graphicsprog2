@@ -136,43 +136,51 @@ void ACodedChar::EndJump()
 	bPressedJump = false;
 }
 
-void ACodedChar::Fire()
-{
-	if (!ProjectileClass) return;
-
-	// Init relevant infomration for where the projectile will be
-	FVector CameraLocation;
-	FRotator CameraRotation;
-	GetActorEyesViewPoint(CameraLocation, CameraRotation);
-
-	MuzzleOffset.Set(100.0f, 0.0f, 0.0f);
-
-	FVector MuzzleLocation = CameraLocation + FTransform(CameraRotation).TransformVector(MuzzleOffset);
-
-	FRotator MuzzleRotation = CameraRotation;
-	MuzzleRotation.Pitch += 10.0f;
-
-	// Start of spawning the projectile
-	UWorld* World = GetWorld();
-	if (!World)  return;
-
-	FActorSpawnParameters SpawnParams;
-	SpawnParams.Owner = this;
-	SpawnParams.Instigator = GetInstigator();
-
-	// Unity Instantiate
-	//AFPSProjectile* Projectile = World->SpawnActor<AFPSProjectile>(ProjectileClass, MuzzleLocation, MuzzleRotation, SpawnParams);
-	//if (!Projectile) return;
-
-	// Launch spawned projectile in the camera rotation
-	//FVector LaunchDirection = MuzzleRotation.Vector();
-	//Projectile->FireInDirection(LaunchDirection);
-
-}
-
 void ACodedChar::OnTimerFinished()
 {
 
 	UGameplayStatics::OpenLevel(GetWorld(), FName("EndGame"));
+
 }
+
+void ACodedChar::Fire()
+{
+	// 1. Get camera location and rotation
+	FVector CameraLocation;
+	FRotator CameraRotation;
+	GetActorEyesViewPoint(CameraLocation, CameraRotation);
+
+	// 2. Set muzzle offset (optional)
+	FVector MuzzleLocation = CameraLocation + FTransform(CameraRotation).TransformVector(MuzzleOffset);
+
+	// 3. Calculate end location for the line
+	float LaserRange = 2000.0f; // How far the line reaches
+	FVector EndLocation = MuzzleLocation + CameraRotation.Vector() * LaserRange;
+
+	// 4. Draw debug line (visible in-game for a short time)
+	DrawDebugLine(
+		GetWorld(),
+		MuzzleLocation,
+		EndLocation,
+		FColor::Red,    // Line color
+		false,          // Persistent lines?
+		0.1f,           // Duration in seconds
+		0,              // Depth priority
+		1.0f            // Line thickness
+	);
+
+	// 5. Optional: Hitscan for detecting hits
+	FHitResult Hit;
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(this); // Don't hit self
+
+	if (GetWorld()->LineTraceSingleByChannel(Hit, MuzzleLocation, EndLocation, ECC_Visibility, Params))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *Hit.GetActor()->GetName());
+
+		// If you want, increment hits when player hits something
+		AddHit();
+	}
+}
+
 
