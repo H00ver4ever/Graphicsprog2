@@ -8,6 +8,8 @@
 #include "GameFramework/Character.h"
 #include "CodedChar.generated.h"
 
+class UHudWidget;
+
 UCLASS()
 class VGP221_GRAPHICSPROG2_API ACodedChar : public ACharacter
 {
@@ -27,6 +29,9 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	void AddHit();
+	void OnTimerFinished();
 
 	UPROPERTY(VisibleAnywhere)
 	UCameraComponent* FPSCameraComponent;
@@ -54,4 +59,11 @@ public:
 
 	UFUNCTION()
 	void Fire();
+
+private:
+	UPROPERTY()
+	UHudWidget* HUDWidget;
+
+	float GameTimer = 30.0f;
+	int32 HitCount = 0;
 };

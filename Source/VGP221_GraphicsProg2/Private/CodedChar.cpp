@@ -2,6 +2,10 @@
 
 
 #include "CodedChar.h"
+#include "HudWidget.h"
+#include "Blueprint/UserWidget.h"
+#include "Kismet/GameplayStatics.h"
+
 
 // Sets default values
 ACodedChar::ACodedChar()
@@ -31,14 +35,22 @@ ACodedChar::ACodedChar()
 		}
 
 		GetMesh()->SetOwnerNoSee(true);
+
+	
 	}
 }
 
-// Called when the game starts or when spawned
 void ACodedChar::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	HUDWidget = CreateWidget<UHudWidget>(GetWorld(), UHudWidget::StaticClass());
+
+	if (HUDWidget)
+	{
+		HUDWidget->AddToViewport();
+		UE_LOG(LogTemp, Warning, TEXT("HUD Widget created"));
+	}
 }
 
 // Called every frame
@@ -46,6 +58,33 @@ void ACodedChar::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	GameTimer -= DeltaTime;
+	if (GameTimer < 0.0f)
+	{
+		GameTimer = 0.0f;	
+	}
+	if (GameTimer <= 0.0f)
+	{
+		OnTimerFinished();
+	}
+
+
+	if (HUDWidget)
+	{
+		HUDWidget->UpdateTimer(GameTimer);
+		HUDWidget->UpdateHits(HitCount);
+	}
+
+}
+
+void ACodedChar::AddHit()
+{
+	HitCount++;
+
+	if (HUDWidget)
+	{
+		HUDWidget->UpdateHits(HitCount);
+	}
 }
 
 // Called to bind functionality to input
@@ -129,5 +168,11 @@ void ACodedChar::Fire()
 	//FVector LaunchDirection = MuzzleRotation.Vector();
 	//Projectile->FireInDirection(LaunchDirection);
 
+}
+
+void ACodedChar::OnTimerFinished()
+{
+
+	UGameplayStatics::OpenLevel(GetWorld(), FName("EndGame"));
 }
 
