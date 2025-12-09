@@ -163,7 +163,7 @@ void ACodedChar::Fire()
 		MuzzleLocation,
 		EndLocation,
 		FColor::Red,    // Line color
-		false,          // Persistent lines?
+		false,          // Persistent lines
 		0.1f,           // Duration in seconds
 		0,              // Depth priority
 		1.0f            // Line thickness
