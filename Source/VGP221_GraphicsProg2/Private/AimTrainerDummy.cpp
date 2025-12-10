@@ -65,8 +65,8 @@ void AAimTrainerDummy::RespawnTarget()
 {
     // Random position inside bounding box
     FVector RandomPos = UKismetMathLibrary::RandomPointInBoundingBox(
-        (SpawnBoxMin + SpawnBoxMax) * 0.5f,
-        (SpawnBoxMax - SpawnBoxMin) * 0.5f
+        FVector (1610,60,520),
+        FVector (200,100,400)
     );
 
     SetActorLocation(RandomPos);
